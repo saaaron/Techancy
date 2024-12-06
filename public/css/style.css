@@ -1,0 +1,265 @@
+body {
+    font-family: 'Inter Regular';
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+.header_shadow {
+    box-shadow: 1px 0rem 1rem 0px rgba(0, 0, 0, .15);
+}
+
+.logo {
+    height: 35px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    font-size: 13px;
+    background-color: #eee;
+}
+
+#margin_btw_header {
+    margin-top: 7rem;
+}
+
+a {
+	text-decoration: none;
+	transition: color 0.3s linear;
+   	-webkit-transition: color 0.3s linear;
+   	-moz-transition: color 0.3s linear;
+}
+
+a:hover, a:focus, a:active {
+    background-color: transparent;
+}
+
+/* remove bs5 focus borders start */
+.btn-danger:focus {
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #50506F;
+    border-top-color: rgb(80, 80, 111);
+    border-right-color: rgb(80, 80, 111);
+    border-bottom-color: rgb(80, 80, 111);
+    border-left-color: rgb(80, 80, 111);
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+/* remove bs5 focus borders end */
+
+/* show password toggle redefined start */
+.my-toggle {
+    background: transparent;
+    border: 0px none;
+    border-radius: 1em;
+    color: #6c757d;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    -moz-appearance: none;
+}
+
+.my-toggle:hover {
+    color: #000;
+    transition: color 0.3s linear;
+   	-webkit-transition: color 0.3s linear;
+   	-moz-transition: color 0.3s linear;
+}
+/* show password toggle redefined end */
+
+.find_a_job_section {
+    background-image: linear-gradient(#ffc3ff, #acd8f5, #ffc9fe);
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+.sm_profile_photo_prev {
+    height: 35px;
+    margin-right: 5px;
+}
+
+.sm_profile_photo_prev img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #eee;
+    border-radius: 50%;
+}
+
+.md_profile_photo_prev {
+    height: 55px;
+    margin-right: 5px;
+}
+
+.md_profile_photo_prev img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #eee;
+    border-radius: 50%;
+}
+
+.lg_profile_photo_prev {
+    height: 200px;
+    width: 200px;
+}
+
+.lg_profile_photo_prev img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #eee;
+    border-radius: 50%;
+}
+
+b {
+    font-family: 'Inter Bold';
+}
+
+.font_12px {
+    font-size: 12px;
+}
+
+.font_13px {
+    font-size: 13px;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+.badge {
+    font-family: 'Inter Bold';
+}
+
+#d_body {
+    background-color: #fdfdfd;
+}
+
+.icon_size_inc {
+    font-size: 1.5rem;
+}
+
+.sidebar .nav-item a {
+    color: #777;
+}
+
+.sidebar .nav-item a:hover, 
+.sidebar a:focus, 
+.sidebar a:active {
+    color: #000;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.sidebar .nav-link:hover, 
+.sidebar .nav-link:focus {
+    color: inherit;
+}
+
+.sidebar .nav-link.active {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.offcanvas-md .offcanvas-body {
+    padding: 1rem !important;
+}
+
+#post_a_job_section label {
+    font-family: 'Inter Bold';
+}
+
+.applicant_link a {
+    color: #777;
+}
+
+.applicant_link a:hover, 
+.applicant_link a:focus, 
+.applicant_link a:active {
+    color: #000;
+}
+
+.dropdown-item:hover {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.apply_job_labels label {
+    font-family: 'Inter Bold';
+    font-size: 13px;
+}
+
+.spinner-border {
+    height: 20px;
+    width: 20px;
+}
+
+/* show password toggle redefined */
+.my-toggle {
+    background: transparent;
+    border: 0px none;
+    border-radius: 1em;
+    color: #6c757d;
+    cursor: pointer;
+    font-size: 0.75em;
+    font-family: 'Inter Bold';
+    margin-right: 0.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    /* -moz-appearance: none; */
+}
+
+.my-toggle:hover {
+    color: #000;
+    transition: color 0.3s linear;
+   	-webkit-transition: color 0.3s linear;
+   	-moz-transition: color 0.3s linear;
+}
+
+.form-check-input:checked {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.active>.page-link {
+    color: #ffffff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.placeholder {
+    background-color: #ccc;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(0 0 0);
+    background-color: #eee;
+}
