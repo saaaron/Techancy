@@ -33,9 +33,9 @@ HTML 5, CSS, Bootstrap 5, jQuery, Laravel 11 (Livewire & Filament's Components),
 - Run `php artisan serve` in the project's terminal and enjoy! :)
 
 ### Admin Panel
-URL: 127.0.0.1:8000/admin
-Email: admin@techancy.app
-Password: 12345678
+- URL: 127.0.0.1:8000/admin
+- Email: admin@techancy.app
+- Password: 12345678
 
 ### Note
 - Livewire's and Filament's components are used for the project. Do not forget to install if not found and also Node modules (for Bootstrap 5 and co)
